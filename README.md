@@ -44,7 +44,7 @@ expr3=3*x+3*y+3*z
 expressions=(expr1,expr2,expr3)
 print(solve_n_equations(expressions))
 
-expr = a*n+d
+expr = 'a*n+d'
 upto = 10000
 s=seriesSummation(expr,upto)
 pprint(s)
